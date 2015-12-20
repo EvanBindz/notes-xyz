@@ -1,3 +1,5 @@
+title: Z Note
+author: Evan Binder
 markdown: redcarpet
 baseurl: /notes-xyz
 exclude: ['README.md']

@@ -2,21 +2,27 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Notes XYZ</title>
+	<title>Znote</title>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
+	{% include nav.html %}
+	<!--{% include nav.html navclass='navbar-fixed-top'%}-->
 	<h1>Notes XYZ</h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</li>
-			<li><a href="{{site.baseurl}}/news.html">News</li>
-		</ul>
-	</nav>
+	
 </header>
 
 {{content}}
+
+<footer>
+	
+	<p>Copyright 2015 NotesXYZ</p>
+</footer>
 
 </body>
 </html>
